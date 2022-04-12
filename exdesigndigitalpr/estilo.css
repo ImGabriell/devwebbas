@@ -1,0 +1,142 @@
+.container
+{
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+.clearfix
+{
+
+}
+
+
+body
+{
+	font-size: 100%
+	font-family: 'Roboto', sans-serif;
+}
+
+header
+{
+	width: 100%;
+	height: 48px;
+	margin-bottom: 2.25em;
+	margin-top: 2.25em;
+}
+
+nav
+{
+	width: 840px;
+	float: right;
+}
+
+li
+{
+	color: #999;
+	margin-left: 0.625em;
+	padding: 0.25em;
+	display: inline-block;
+}
+
+a
+{
+	color: #999;
+	text-decoration: none;
+}
+
+ul
+{
+	text-align: right;
+}
+
+.caixa
+{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 500px;
+	margin-top: 2.908125em;
+    height: 250px;
+}
+
+.banner
+{
+
+	margin-bottom: 2.1875em;
+	background-image: url(imagens/banner.jpg);
+	height: 445.46px;
+}
+
+section
+{
+	padding: 0.4375em;
+	display: flex;
+}
+
+h1
+{
+	margin-left: 1.75em;
+	color: white;
+}
+
+.footer
+{
+	color: black;
+}
+
+.p
+{
+	margin-left: 1.75em;
+	color: white;
+}
+
+.dep 
+{
+	margin-left: 1.75em;
+	color: #00CCFF;
+
+}
+
+img
+{
+	max-width: 100%;
+	width: 264px;
+}
+
+p
+{
+	color: black;
+}
+
+footer
+{
+	width: 100%;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+article p 
+{
+	text-align: left;
+}
+
+section p
+{
+	padding: 0.375em;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+.logo
+{
+	width: 234px;
+	float: left;
+}
+
+.footer
+{
+	font-size: 10px; /*10px*/
+}
+
