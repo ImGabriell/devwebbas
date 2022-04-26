@@ -22,16 +22,16 @@ img
 li
 {
     list-style: none;
-    height: 40px;
-    width: 100px;
-    font-size: 25px;
-
+    height: 10px;
+    width: 400px;
+    font-size: 20px;
+    margin: 25px;
+ 
 }
 
 header
 {
-    right: 150px;
-    margin: auto;
+    left: 425px;
     top: 100px;
     display: flex;
     position: absolute;
@@ -55,3 +55,50 @@ article
     margin-left: 50px;
     width: 475px;
 }
+
+b
+{
+    font-size: 20px;
+}
+
+.article2
+{
+    padding-left: 125px;
+    padding-top: 10px;
+    width: 500px;
+}
+
+.article3
+{
+    margin-top: 0px;
+    float: right;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: #3d99be;
+}
+
+a
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+div
+{
+    display: flex;
+}
+
+p footer
+{
+    font-size: 5px;
+}
+
+footer
+{
+    margin-top: 100px;
+    text-align: center;
+}
+
