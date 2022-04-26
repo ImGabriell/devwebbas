@@ -31,10 +31,10 @@ li
 
 header
 {
-    left: 425px;
-    top: 100px;
     display: flex;
     position: absolute;
+    left: 425px;
+    top: 100px;
 }
 
 section
@@ -63,7 +63,7 @@ b
 
 .article2
 {
-    padding-left: 125px;
+    padding-left: 105px;
     padding-top: 10px;
     width: 500px;
 }
@@ -88,7 +88,7 @@ a
 }
 div
 {
-    display: flex;
+    display: flex ;
 }
 
 p footer
@@ -100,5 +100,31 @@ footer
 {
     margin-top: 100px;
     text-align: center;
+}
+
+.insta
+{
+    width: 80px;
+    height: 80px;
+}
+
+.linke
+{
+    margin-top: 9px;
+    width: 57px;
+    height: 57px;
+}
+
+.git
+{   
+    margin-top: 13px;
+    width: 50px;
+    height: 50px;
+}
+
+.icons 
+{
+    display: flex;
+    width: 100px;
 }
 
