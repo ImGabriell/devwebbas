@@ -1,0 +1,130 @@
+body
+{
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);    font-family: 'Ubuntu', sans-serif;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 60px;
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+img
+{
+    border-radius: 50%;
+    width: 275px;
+    height: 275px;
+    float: right;
+}
+
+li
+{
+    list-style: none;
+    height: 10px;
+    width: 400px;
+    font-size: 20px;
+    margin: 25px;
+ 
+}
+
+header
+{
+    display: flex;
+    position: absolute;
+    left: 425px;
+    top: 100px;
+}
+
+section
+{
+    margin-top: 425px;
+    margin-left: 50px;
+}
+
+h2
+{       
+    top: 50px;
+    font-size: 30px;
+}
+
+article
+{
+    margin-bottom: 50px; 
+    margin-left: 50px;
+    width: 475px;
+}
+
+b
+{
+    font-size: 20px;
+}
+
+.article2
+{
+    padding-left: 105px;
+    padding-top: 10px;
+    width: 500px;
+}
+
+.article3
+{
+    margin-top: 0px;
+    float: right;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: #3d99be;
+}
+
+a
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+div
+{
+    display: flex ;
+}
+
+p footer
+{
+    font-size: 5px;
+}
+
+footer
+{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.insta
+{
+    width: 80px;
+    height: 80px;
+}
+
+.linke
+{
+    margin-top: 9px;
+    width: 57px;
+    height: 57px;
+}
+
+.git
+{   
+    margin-top: 13px;
+    width: 50px;
+    height: 50px;
+}
+
+.icons 
+{
+    display: flex;
+    width: 100px;
+}
+
