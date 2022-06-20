@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>If e Else</title>
+	<meta charset="utf-8"></meta>
+
+	<script> 
+
+		var nota1 = prompt('Digite a nota 1: ')
+		var nota2 = prompt('Digite a nota 2: ')
+		var faltasAluno = prompt('Digite as faltas do aluno(a)')
+
+		nota1 = parseFloat(nota1)
+		nota2 = parseFloat(nota2)
+		faltasAluno = parseFloat(faltasAluno)
+
+		var faltas = 20
+		var media = 6
+		var notaAluno = nota1 + nota2 
+
+		if (notaAluno >= media && faltasAluno <= faltas)
+		{
+			document.write('<h1>APROVADO</h1>')
+			document.write('<h3>Sua nota total foi: </h3>' + notaAluno) 
+			document.write('<h3>Sua quantidade de faltas foi: </h3>' + faltasAluno)
+		}
+		else if (faltasAluno <= faltas && notaAluno >= 1)
+		{
+			document.write('<h1>EXAME FINAL</h1>')
+			document.write('<h3>Você não reprovou por falta, porém sua nota não atingiu a média. Recupere no exame final.</h3>')		
+		}
+		else
+		{
+			document.write('<h1>REPROVADO</h1>')
+			document.write('<h3>Você reprovou por falta.</h3>')
+		}
+
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>
